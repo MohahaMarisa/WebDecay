@@ -1,0 +1,49 @@
+@font-face {
+    font-family: OldTimes;
+    src: url('WindowsTimesNewRomanBitmapFontNewTestFont.ttf') format('truetype');
+}
+body {
+  /*background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important;*/
+  background-color: #ECEBEB !important;
+  font-family: OldTimes !important;
+  margin-left: 0px !important;
+}
+h1, h2, h3, h4, h5, h6, p {
+/*	all: unset;*/
+	font-family: OldTimes !important;
+}
+button, input[type="button"], input[type="submit"] { 
+    color:black !important; 
+    font: bold 84% OldTimes, 'trebuchet ms',helvetica !important; 
+    background-color:gray !important; 
+    border:3px solid !important; 
+    border-color: white black black white !important; 
+
+}
+a {
+	color: blue !important;
+	text-decoration: underline !important;
+}
+
+hr {
+	all: unset;
+}
+
+div{
+	background-color: #ECEBEB !important;
+}
+
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Modify CSS and HTML",
+  "version": "0.1.0",
+  "description": "decays the web back to the early days...",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }]
+
+}
